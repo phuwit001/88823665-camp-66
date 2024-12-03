@@ -2,20 +2,82 @@
 <html>
     <head>
         <title>
-            Pag Title
+            workshop # html-form
         </title>
+        <meta charset="UTF-8"/>
     </head>
     <body>
         <h1>
-            this is a book
+            Workshop #HTML-FROM
         </h1>
-        <p>
-            this is word
-        
-        </p>
-        sddfsdfds
-        asdsad
-        asdsad\
-        asdasd
+        <table>
+            <form>
+                <tr>
+                    <td><label for="fname">ชื่อ</label></td>
+                    <td><input type="text" id="fname"FirstName="fname"></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">นามสกุล </label></td>
+                    <td><input type="text" id="lname"LastName="lname"></td>
+                </tr>
+                <tr>
+                    <td><label for="date">วัน/เดือน/ปีเกิด </label></td>
+                    <td><input type="date" id="bdaydate"BirthDay="bdaydate"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">อายุ </label></td>
+                    <td><input type="number"id="age"tOld="age"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">เพศ </label></td>
+                    <td>
+                        <input type="radio" id="gender" name="male" value="Male">
+                        <label for="gender">ชาย</label>
+                        <input type="radio" id="gender" name="male" value="Female">
+                        <label for="gender">หญิง</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="myfile">รูป </label></td>
+                    <td><input type="file" id="myfile" name="myfile"></td>
+                </tr>
+                <tr>
+                    <td><label for="adress">ที่อยู่ </label></td>
+                    <td><textarea rows="5" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="fav">สีที่ชอบ </label></td>
+                    <td>
+                        <select name="favColor" id="favC" size="1">
+                            <option value="red">สีแดง</option>
+                            <option value="green">สีเขียว</option>
+                            <option value="blue">สีน้ำเงิน</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="favSong" id="favSong">แนวเพลงที่ชอบ </label></td>
+                    <td>
+                        <input type="radio" name="favSong" id="favSong" value="life">
+                        <label for="music">เพื่อชีวิต </label>
+                        <input type="radio" name="favSong" id="favSong" value="country">
+                        <label for="music">ลูกทุ่ง </label>
+                        <input type="radio" name="favSong" id="favSong" value="Other">
+                        <label for="music">อื่น ๆ </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <input type="checkbox" name="check" id="accept" value="Accept">
+                        <label for="check">ยินยอมให้เก็บข้อมูล</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><br><br><input type="reset" value="Reset"></td>
+                    <td><br><br><input type="submit" value="Submit"></td>
+                </tr>
+            </form>
+        </table>
     </body>
 </html>
