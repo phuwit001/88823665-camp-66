@@ -1,126 +1,24 @@
-/* mystyle.css*/
-h1{
-    color:  rgb(243, 176, 195);
-    font-family: 'Ubuntu';
-    font-size: 36pt;
-    width: 47%;
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    border: 3px solid rgb(243, 176, 195);
-    border-radius: 10em;
-    text-align: center;
-
-    background-image: url(https://cdn.pixabay.com/photo/2022/08/30/21/40/milk-7421992_1280.png);
-    background-size: 110px;
-    background-repeat: no-repeat;
-    background-position: 98%;
+/* mystyle.css */
+ul{
+    list-style-type: disc;
+    list-style: circle inside url('chat_1364861.png');
 }
+h1 {
+    font-size: 16pt;
+    color: green;
+}
+
+h1.myh1{
+    font-size: 25pt;
+    margin: 25px;
+    padding: 10px 50px 20px 50px;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
 h1:hover{
-    background-color: rgb(243, 176, 195);
-    color: white;
+    background-color: green;
 }
-
-table{
-    font-family: 'Ubuntu';
-    display: flex;
-    justify-content: center;
-}
-
 body{
-    font-family: 'Ubuntu';   
-    
-    background-image: url(https://media.tenor.com/-2W1byH5iqUAAAAi/pink-aestethic.gif),url(https://media.tenor.com/-2W1byH5iqUAAAAi/pink-aestethic.gif);
-    background-size: 30%;
-    background-repeat: no-repeat;
-    background-position: left,right;
+    font-family: 'Kanit', serif;
 }
-
-input[type="submit"]:hover,input[type="reset"]:hover{
-    background-color: rgb(243, 176, 195);
-    color: rgb(255, 218, 229);
-    border: 3px solid rgb(240, 145, 172);
-}
-
-input[type = "text"]:focus{
-    outline: none;
-    border: 3px solid rgb(240, 145, 172);
-}
-input[type = "text"]:hover{
-    background-color: rgb(243, 176, 195);
-    color: rgb(255, 218, 229);
-    border: 3px solid rgb(240, 145, 172);
-}
-
-input[type = "date"]:focus{
-    outline: none;
-    border: 3px solid rgb(240, 145, 172);
-}
-input[type = "date"]:hover{
-    background-color: rgb(243, 176, 195);
-    color: rgb(255, 218, 229);
-    border: 3px solid rgb(240, 145, 172);
-}
-
-input[type = "number"]:focus{
-    outline: none;
-    border: 3px solid rgb(240, 145, 172);
-}
-input[type = "number"]:hover{
-    background-color: rgb(243, 176, 195);
-    color: rgb(255, 218, 229);
-    border: 3px solid rgb(240, 145, 172);
-}
-
-input[type = "radio"]:focus{
-    outline: 3px solid rgb(240, 145, 172);
-    border: 3px solid rgb(255, 218, 229);
-}
-input[type="radio"]:hover {
-    outline: 3px solid rgb(240, 145, 172);
-    cursor: pointer;
-}
-
-input[type = "select"]:focus{
-    outline: 3px solid rgb(240, 145, 172);
-    border: 3px solid rgb(255, 218, 229);
-}
-input[type="select"]:hover {
-    outline: 3px solid rgb(240, 145, 172);
-    cursor: pointer;
-}
-
-textarea:hover{
-    background-color : rgb(243, 176, 195);
-    color: rgb(255, 218, 229);
-    border: 3px solid rgb(240, 145, 172);
-}
-textarea:focus{
-    outline: none;
-    border: 3px solid rgb(240, 145, 172); 
-}
-
-select:hover{
-    background-color : rgb(243, 176, 195);
-    color: rgb(255, 218, 229);
-    border: 3px solid rgb(240, 145, 172);
-}
-
-input[type = "checkbox"]:focus{
-    outline: 3px solid rgb(240, 145, 172);
-    border: 3px solid rgb(255, 218, 229);
-}
-input[type="checkbox"]:hover {
-    outline: 3px solid rgb(240, 145, 172);
-    cursor: pointer;
-}
-
-img {
-    display: block;
-    margin: 10px auto;
-    width: 100px;
-    border-radius: 100%;
-}
-
